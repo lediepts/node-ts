@@ -1,5 +1,5 @@
 {
-  "name": "office-management",
+  "name": "node-ts",
   "version": "1.0.0",
   "description": "",
   "main": "./libs/index.js",
@@ -18,13 +18,8 @@
     "helmet": "^5.0.2",
     "ipware": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
-    "mariadb": "^3.0.0",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1",
-    "mysql": "^2.18.1",
-    "path": "^0.12.7",
-    "sequelize": "^6.17.0",
-    "socket.io": "^4.4.1"
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
