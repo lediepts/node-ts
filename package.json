@@ -2,7 +2,7 @@
   "name": "node-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "./libs/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --pretty --transpile-only --ignore client src/index.ts",
     "build": "tsc"
