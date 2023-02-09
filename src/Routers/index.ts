@@ -1,13 +1,6 @@
-import express, { Response } from "express";
-import { ServiceRequest } from "../interfaces";
+import express from "express";
+import { userRouter } from "./user";
 
 export const apiRouter = express.Router();
 
-apiRouter.get("/", async (_req: ServiceRequest, res: Response) => {
-  try {
-    res.send("api root");
-  } catch (error) {
-    console.log(error);
-    res.sendStatus(Number(error) || 500);
-  }
-});
+apiRouter.use("/user", userRouter);
