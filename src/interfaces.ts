@@ -13,3 +13,7 @@ export interface User {
   id: number;
   name: string;
 }
+export interface TokenInfo {
+  id: number;
+  name: string;
+}
