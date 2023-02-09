@@ -18,7 +18,7 @@ export const UserSchema = database.define<UserModel>(
   "users",
   {
     id: {
-      type: DataTypes.BIGINT.UNSIGNED,
+      type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
     },
